@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZCG Checklist Crawler – About</title>
+<meta name="description" content="Polite single-threaded crawler that fetches printable baseball checklists (2020–2023, inserts included) from TCDB for personal offline research. 1.5 s delay.">
+<style>body{font:16px/1.5 system-ui,Segoe UI,Roboto,Arial,sans-serif;max-width:800px;margin:2rem auto;padding:0 1rem;color:#222}code,pre{background:#f6f8fa;padding:.2rem .4rem;border-radius:4px}h1{margin-bottom:.25rem}small{color:#666}ul{margin-top:.25rem}</style>
+</head><body>
+<h1>ZCG Checklist Crawler</h1>
+<small>User-Agent: <code>ZCGTony/1.0</code></small>
+<p>This crawler fetches the printable checklist view for baseball sets so I can analyze them offline. Scope is Baseball, 2020–2023, inserts included. It runs a single request at a time with ~1.5 seconds between calls and only touches the year/set browse pages for discovery plus the printable checklist endpoint for capture. No login areas, no pricing data, and no images or scripts. Output is HTML only, stored locally for personal research.</p>
+<h2>Behavior</h2>
+<ul>
+  <li><strong>Scope:</strong> Baseball 2020–2023, inserts included</li>
+  <li><strong>Pacing:</strong> single thread, ~1.5 s delay</li>
+  <li><strong>Endpoints:</strong> year and set browse for discovery; <code>/PrintCenter.cfm?Report=PrintChecklist&SetID=…</code> for capture</li>
+  <li><strong>Data stored:</strong> printable HTML only</li>
+</ul>
+<h2>Contact & Opt-Out</h2>
+<p>Email <a href="mailto:checklists@youralias.com">checklists@youralias.com</a>. Include IP, timestamp, and path if possible. I will pause or adjust.</p>
+<p><small>Last updated: 2025-09-12</small></p>
+</body></html>
